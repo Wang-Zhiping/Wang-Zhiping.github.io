@@ -7,7 +7,7 @@
 ## Accepted Papers
 
 ### Title: Fusion-Based Enhancement of Multi-Exposure Fourier Ptychographic Microscopy
-![Wide-Field Quantitative Phase Imaging Without Slicing Via Feature-Domain Fourier Ptychographic Microscopy](xuqpiolt.png)
+![Fusion-Based Enhancement of Multi-Exposure Fourier Ptychographic Microscopy](ZhipingAPNfusion.png)
 - Authors: <u>Zhiping Wang</u>, Tianci Feng, Aiye Wang, Jinghao Xu, and An Pan.
 - Link: [SPIE](https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-04/046001/Fusion-based-enhancement-of-multi-exposure-Fourier-ptychographic-microscopy/10.1117/1.APN.4.4.046001.full)
 - DOI: [10.1117/1.APN.4.4.046001](https://doi.org/10.1117/1.APN.4.4.046001)
