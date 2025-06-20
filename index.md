@@ -122,14 +122,15 @@ For more detailed information about my academic and research experiences, please
 * * *
 
 ### Research Interests:<a name="RI"></a>
-Computational optics, especially combined hardware and software optimization for more purposeful imaging results and the application in various fields
-         
- In more specific terms, what particularly captivates my interest in **computational imaging** is:
+I am particularly interested in computational optics and imaging, with a focus on its application across diverse fields and the co-optimization of hardware and algorithms to achieve more purposeful and high-quality imaging results.
+
+More specifically, what captivates me includes:
  
-+ **Computational imaging and image reconstruction**
-+ **Applications of imaging in biology and astronomy**
-+ **Joint optimization/co-optimization of algorithms and hardware**
-+ **Using AI to optimize reconstruction algorithms or guide the design of new imaging systems**
++ **Computational optics and imaging**  
++ **Real-world applications of optics and imaging**  
++ **Joint optimization of algorithms and hardware**
+
+<!-- + **Using AI to optimize reconstruction algorithms or guide the design of new imaging systems** -->
 
 
          
@@ -184,8 +185,14 @@ ongoing evaluation.
 # Research experiences <a name="RE"></a>
 The listed content here is just a partial enumeration of experiences. If you would like to learn more details, please click [here](./research.md).
 
++ **3D Reconstruction for TVAM 3D-Printed Sample** – EPFL EEE Summer Project  
+  Advisor: Dr. Christophe Moser, EPFL | June 2025 – Sep 2025 | Lausanne, Switzerland 
+
++ **Optimal Filtered Back-Projection for Cryo-electron Tomography** – Master's Project  
+  Advisors: Dr. Ricardo Righetto & Dr. Valentin Debarnot, University of Basel | Nov 2024 – Feb 2025 | Basel, Switzerland  
+
 + **Research on Fast Fourier Ptychographic Based on Illumination Control** -Independent project, funded by the University of Chinese Academy of Sciences.
-  Supervisor: Dr. An Pan, Pioneering Interdiscipline Center of CAS Aug 2023–present
+  Supervisor: Dr. An Pan, Pioneering Interdiscipline Center of CAS Aug 2023–May 2024
   
 + **Improving the efficiency of photoacoustic conversion in photoacoustic imaging** (tentative)
   School of Information and Engineering, ShanghaiTech (May-September 2023)

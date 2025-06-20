@@ -1,16 +1,35 @@
 # Research/Projects Experience
 
+### 3D Reconstruction for TVAM 3D-Printed Sample  
+**EPFL EEE Summer Project**  
+**Advisor: Dr. Christophe Moser, EPFL**  
+**June 2025 – Sep 2025 | Lausanne, Switzerland**  
+- Built a custom multi-slice physical model for 3D Fourier ptychographic microscopy (FPM), and implemented full forward simulation and inverse reconstruction using the angular spectrum method.  
+- Introduced implicit neural representations (INR) to replace voxel-based optimization, significantly enhancing reconstruction quality and reducing artifacts.  
+- Currently preparing experimental validation using 3D-printed samples and a dual-view acquisition setup.  
 
-## Research on Fast Fourier Ptychographic Based on Illumination Control
-**Research Internship**
-**Supervisor: Dr. An Pan, Pioneering Interdiscipline Center of CAS**
-**Aug 2023--present**
+---
+## Optimal Filtered Back-Projection for Cryo-electron Tomography  
+**Master’s Project, Biozentrum & DMI, University of Basel**  
+**Advisors: Dr. Ricardo Righetto & Dr. Valentin Debarnot**  
+**Nov 2024 – Feb 2025 | Basel, Switzerland**  
+- Designed and trained an optimal filter for tomographic reconstruction using PyTorch and total variation regularization.  
+- Implemented simulation-based back-projection using ODL and enhanced real Cryo-ET dataset quality (EMPIAR-11830, Chlamydomonas).  
+- [Project report (PDF)](https://github.com/Wang-Zhiping/Wang-Zhiping.github.io/blob/main/publications/Zhiping_Report_cryo_opfbp.pdf)
 
-- Studied articles related to the principles of Fourier Ptychographic Microscopy and actively participated in experiments to gain insights into the details.
-- Performed numerical simulations to assess the effect of various LED on image restoration, explored relevant literature and theory to seek support for reducing overlap rates; experiment still in the planning.
+---
 
-- +  Implemented new algorithm for [single-shot wide-field recovery](./ResearchSummary&Reporting/FPM/single-fast.md) in FPM. 
-- +  Resolved the issue of [phase recovery disparity in FPM under the presence of stray light](./ResearchSummary&Reporting/FPM/fusion.md) using image fusion. 
+## Research on High-effective Fourier Ptychographic  
+**Research Internship, Pioneering Interdiscipline Center, Chinese Academy of Sciences**  
+**Advisor: Dr. An Pan**  
+**Aug 2023 – July 2024 | Beijing, China**  
+- Studied key literature on Fourier Ptychographic Microscopy (FPM) and participated in experimental design and validation.  
+- Used MATLAB and Arduino-controlled LED arrays to implement multi-exposure imaging with increasing FOV (0.2 mm → 3.3 mm).  
+- Proposed a novel nonlinear stitching approach using image fusion, improving reconstruction accuracy under stray light.  
+- [Single-shot algorithm GitHub](https://wang-zhiping.github.io/ResearchSummary&Reporting/FPM/single-fast.html)  
+- [Phase fusion GitHub](https://wang-zhiping.github.io/ResearchSummary&Reporting/FPM/fusion.html)
+
+---
 
 ## Exploring the Performance of Coherent Ising Machine in weighted NP-Hard Problems
 **Independent Study**
