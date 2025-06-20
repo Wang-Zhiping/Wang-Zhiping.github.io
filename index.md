@@ -158,6 +158,12 @@ These 4 areas --- all revolve around the fascinating intersection of optics and 
 
 * * *
 # Honors and Awards　<a name="HA"></a>
++ **EPFL Excellence in Engineering Fellowship**
+  + EPFL (Jun. 2025 – Sep. 2025)
++ **Biozentrum Fellowship for Master's Study**
+  + University of Basel (Jun. 2024 – Jan. 2026)
++ **Excellent Bachelor's Thesis **
+  + Lanzhou University(Jun. 2024)
 + **China Undergraduate Physics Tournament(Northwest Region) —(First Prize)**
   + As a contestant (June 2021)
 + **China Undergraduate Physics Tournament(Northwest Region) —(Second Prize)**
