@@ -31,13 +31,13 @@ layout: default
 
 Welcome to my personal website!
 
+I am Zhiping Wang, an incoming PhD student at EPFL with a background in physics, imaging, and biophysics. I recently defended my Master's thesis in the Physics of Life program at the [University of Basel](https://www.unibas.ch/en), Switzerland, and I am currently awaiting the official conferral of my degree.
 
+My research interests lie at the intersection of computational imaging, optical systems, and biological applications. During my Master's thesis at the [Biozentrum](https://www.biozentrum.unibas.ch), I worked on dual-view 3D imaging and pose-based behavioural analysis in Drosophila, combining telecentric imaging, DeepLabCut-based tracking, affine 3D reconstruction, and long-term behavioural analysis.
 
-I am **Zhiping Wang**, currently a **Master** of Science student at the [University of Basel](https://www.unibas.ch/en), Switzerland, enrolled in the **Physics of Life** program at the [Biozentrum](https://www.biozentrum.unibas.ch). My current research is based in Knut Drescher's lab, where I am working on improving a fluorescence screening robot for biofilm imaging. This project aims to enhance high-throughput fluorescence microscopy for biofilm studies by improving the system's efficiency and precision.  
+Previously, I worked on *Optimization of Cryo-EM Image Reconstruction* in the labs of [Prof. Dr. Ben Engel](https://www.biozentrum.unibas.ch/about/administration/administration-a-z/overview/unit/research-group-ben-engel) and [Prof. Dr. Ivan Dokmanić](https://sada.dmi.unibas.ch/en/people/head-of-sada/ivan-dokmanic), under the joint supervision of Dr. Ricardo Diogo Righetto and Dr. Valentin Debarnot. This project leveraged computational imaging techniques for structural biology applications.  
 
-Previously, I worked on *Optimization of Cryo-EM Image Reconstruction* in the labs of [Prof. Dr. Ben Engel](https://www.biozentrum.unibas.ch/about/administration/administration-a-z/overview/unit/research-group-ben-engel) and [Prof. Dr. Ivan Dokmanić](https://sada.dmi.unibas.ch/en/people/head-of-sada/ivan-dokmanic), under the joint supervision of Dr. Ricardo Diogo Righetto and Dr. Valentin Debarn. This project leveraged computational imaging techniques for structural biology applications.  
-
-I obtained my **Bachelor of Science in Physics** from Lanzhou University in 2024. During my undergraduate studies, I conducted research in Computational Optics and Computational Imaging, particularly in Fourier Ptychography, at the [Pioneering Interdiscipline Center](http://www.piclaboratory.com/) of the Chinese Academy of Sciences, under the guidance of Dr. Pan An.  
+I obtained my Bachelor of Science in Physics from Lanzhou University in 2024. During my undergraduate studies, I conducted research in computational optics and computational imaging, particularly in Fourier ptychographic microscopy, at the [Pioneering Interdiscipline Center](http://www.piclaboratory.com/) of the Chinese Academy of Sciences, under the guidance of Dr. Pan An.  
 
 
 <!-- -----
@@ -54,7 +54,7 @@ I am presently involved in a research internship at the [Pioneering Interdiscipl
 Since May of this year, I have been actively involved in an online research project on **Photoacoustic Imaging** under the guidance of Professor [Fei Gao](https://scholar.google.com.sg/citations?user=aDTizY8AAAAJ) at [HISLAB](http://www.hislab.cn/), ShanghaiTech University.
 -->
 
-For more detailed information about my academic and research experiences, please refer to the [Education](#Education), [Research](#RE), and [Teaching Assistantship](#TA) sections of this website. Alternatively, you can also view my [CV](./CV/ZhipingWANG_CV_Oct_2024.pdf). for a summary of my achievements.<a href="https://clustrmaps.com/site/1bx3g" title="Visit tracker">
+For more detailed information about my academic and research experiences, please refer to the [Education](#Education), [Research](#RE), and [Teaching Assistantship](#TA) sections of this website. Alternatively, you can also view my [CV](./CV/ZhipingWANG_CV_Nov2025_2.pdf) for a summary of my achievements.<a href="https://clustrmaps.com/site/1bx3g" title="Visit tracker">
   <img src="//www.clustrmaps.com/map_v2.png?d=l8Vxf3g7cK6-tuIQUBBtPNSo7ALplEXpHsJAAcgXi20&cl=ffffff" width="1" height="1" />
 </a>
 
@@ -62,9 +62,12 @@ For more detailed information about my academic and research experiences, please
 * * *
 ## NEWS
 ### Academic(Click the links to view the research findings.)
+
++ Jun 8, 2026 Successfully defended my Master's thesis in Physics of Life at the University of Basel; official degree conferral pending.
++ Aug 2026 I will join EPFL as an incoming PhD student.
 + May 7, 2025 *Fusion-based enhancement of multi-exposure Fourier ptychographic microscopy* was accepted by Advanced Photonics Nexus.
 + Nov 3, 2025 Gave my presentation and completed my first project: Optimal Back-Projection for Tomography.
-+ Feb 28, 2025 Joined Knut Drescher's lab for my second Master's project, where I am working on improving a fluorescence screening robot for biofilm imaging.
++ Feb 28, 2025 Joined Knut Drescher's lab for my second Master's project, focusing on dual-view 3D imaging and behavioural analysis in Drosophila.
 + Feb 26, 2025 My article, *Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy*, was accepted by <u>Optics and Laser Technology</u>.
 + Jan 14, 2025 My co-authored article *Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization* has been accepted by <u>Advanced Photonics Nexus</u>.
 + Nov 25, 2024 Joined Ben Engel's lab for my first Master's project, focusing on algorithmic improvements for Cryo-EM 3D reconstruction.
@@ -93,7 +96,7 @@ For more detailed information about my academic and research experiences, please
 <br>
 
 #### Non-Academic(Click the link to view milestones in my life.)
-+ **Dec 17, 2020** Reached the summit of [Haier Dang](./hiking&photos/readme2.md) (30°51'N 102°53'E,Altitudinal level 4470m).
++ **Dec 17, 2020** Reached the summit of [Haier Dang](./hiking&photos/readme2.md) (30°51'N 102°53'E, Altitudinal level 4470 m).
 <details>
 <summary>Old news</summary>
 <br>
@@ -122,39 +125,40 @@ For more detailed information about my academic and research experiences, please
 * * *
 
 ### Research Interests:<a name="RI"></a>
-I am particularly interested in computational optics and imaging, with a focus on its application across diverse fields and the co-optimization of hardware and algorithms to achieve more purposeful and high-quality imaging results.
+I am interested in computational and optical imaging systems, especially their applications in biological analysis, 3D reconstruction, and advanced optical technologies. My work is driven by the idea of combining hardware design, computational models, and data-driven analysis to extract meaningful information from complex imaging systems.
 
-More specifically, what captivates me includes:
+More specifically, my interests include:
  
-+ **Computational optics and imaging**  
-+ **Real-world applications of optics and imaging**  
-+ **Joint optimization of algorithms and hardware**
++ Computational optics and imaging  
++ 3D imaging and reconstruction  
++ Imaging-based biological analysis  
++ Joint optimization of algorithms and hardware  
++ Advanced optical systems and 3D printing technologies
 
 <!-- + **Using AI to optimize reconstruction algorithms or guide the design of new imaging systems** -->
 
 
          
-These 4 areas --- all revolve around the fascinating intersection of optics and new methodologies. I believe that these areas share similarities on many levels, and they align with my primary interest in computational imaging.
+These areas revolve around the intersection of optics, computation, and biological applications, and they align with my primary interest in computational imaging.
 
 ### Hobbies:
-[hiking](./hiking&photos/readme2.md),[Photography](https://500px.com.cn/ZhipingWANG), travel, PFV,  and marketing
+[hiking](./hiking&photos/readme2.md), [Photography](https://500px.com.cn/ZhipingWANG), travel, PFV, and marketing
 
 
 * * *
 
 # Education <a name="Education"></a>
-### Master of Science in Physics of Life        (September 2024 – current)
-+ Biozentrum, Basel, Switzerland  
+### Master of Science in Physics of Life        (September 2024 – June 2026)
++ Biozentrum, University of Basel, Basel, Switzerland  
++ Master's thesis defended on Jun 8, 2026; official degree conferral pending  
 + Fellowship recipient   
 <!-- + **Relevant Courses**: [List relevant courses or research topics if applicable] -->
  
 ### Bachelor of Science in Physics         (September 2020 – July 2024)
 + Lanzhou University
-+ GPA:85.25/100
-+ Ranking:4/20 in Physics Base Class(magnetism) **(20 Selected from 52)**
-+ **Major courses**:Computational Physics, Methods of Mathematical Physics, Optoelectronic Technology and Its
-  Applications, AI and Big Data, Fourier optics, Theoretical Mechanics, Thermodynamics and Statistical Physics,
-  Quantum Mechanics, Electrodynamic
++ GPA: 85.25/100
++ Ranking: 4/20 in Physics Base Class (magnetism) **(20 selected from 52)**
++ **Major courses**: Computational Physics, Methods of Mathematical Physics, Optoelectronic Technology and Its Applications, AI and Big Data, Fourier Optics, Theoretical Mechanics, Thermodynamics and Statistical Physics, Quantum Mechanics, Electrodynamics
 
 * * *
 # Honors and Awards　<a name="HA"></a>
@@ -162,11 +166,11 @@ These 4 areas --- all revolve around the fascinating intersection of optics and 
   + EPFL (Jun. 2025 – Sep. 2025)
 + **Biozentrum Fellowship for Master's Study**
   + University of Basel (Jun. 2024 – Jan. 2026)
-+ **Excellent Bachelor's Thesis **
-  + Lanzhou University(Jun. 2024)
-+ **China Undergraduate Physics Tournament(Northwest Region) —(First Prize)**
++ **Excellent Bachelor's Thesis**
+  + Lanzhou University (Jun. 2024)
++ **China Undergraduate Physics Tournament (Northwest Region) — First Prize**
   + As a contestant (June 2021)
-+ **China Undergraduate Physics Tournament(Northwest Region) —(Second Prize)**
++ **China Undergraduate Physics Tournament (Northwest Region) — Second Prize**
   + As a team leader (July 2022)
 + **Outstanding Student Scholarship**
   + Lanzhou University (September 2022)
@@ -180,10 +184,9 @@ These 4 areas --- all revolve around the fascinating intersection of optics and 
 
 Teaching Assistant (September 2021 – January 2022)
 
-- Reviewed and graded student assignments, provided constructive feedback to students, and helped teachers with
-ongoing evaluation.
+- Reviewed and graded student assignments, provided constructive feedback to students, and helped teachers with ongoing evaluation.
 
-- Assisted students with course material and answered questions during regular office hours I held or in the class.
+- Assisted students with course material and answered questions during regular office hours I held or in class.
 
 
 * * *
@@ -191,30 +194,34 @@ ongoing evaluation.
 # Research experiences <a name="RE"></a>
 The listed content here is just a partial enumeration of experiences. If you would like to learn more details, please click [here](./research.md).
 
++ **Dual-view 3D Imaging and Behavioural Analysis in Drosophila** – Master's Thesis  
+  Advisor: Prof. Knut Drescher, University of Basel | 2025 – 2026 | Basel, Switzerland  
+  Built an end-to-end imaging and analysis pipeline combining telecentric dual-view imaging, DeepLabCut-based pose estimation, affine 3D reconstruction, and long-term analysis of sleep-related microbehaviours.
+
 + **3D Reconstruction for TVAM 3D-Printed Sample** – EPFL EEE Summer Project  
-  Advisor: Dr. Christophe Moser, EPFL | June 2025 – Sep 2025 | Lausanne, Switzerland 
+  Advisor: Prof. Christophe Moser, EPFL | June 2025 – Sep 2025 | Lausanne, Switzerland 
 
 + **Optimal Filtered Back-Projection for Cryo-electron Tomography** – Master's Project  
   Advisors: Dr. Ricardo Righetto & Dr. Valentin Debarnot, University of Basel | Nov 2024 – Feb 2025 | Basel, Switzerland  
 
-+ **Research on Fast Fourier Ptychographic Based on Illumination Control** -Independent project, funded by the University of Chinese Academy of Sciences.
-  Supervisor: Dr. An Pan, Pioneering Interdiscipline Center of CAS Aug 2023–May 2024
++ **Research on Fast Fourier Ptychographic Microscopy Based on Illumination Control** – Independent project, funded by the University of Chinese Academy of Sciences  
+  Supervisor: Dr. An Pan, Pioneering Interdiscipline Center of CAS | Aug 2023 – May 2024
   
-+ **Improving the efficiency of photoacoustic conversion in photoacoustic imaging** (tentative)
-  School of Information and Engineering, ShanghaiTech (May-September 2023)
++ **Improving the efficiency of photoacoustic conversion in photoacoustic imaging**  
+  School of Information and Engineering, ShanghaiTech University | May 2023 – Sep 2023
   
-+ **Exploring the Performance of Coherent Ising Machine in Weighted NP-Hard Problems**
-  School of ECE, Purdue University(Online) (December 2022 – August 2023)
++ **Exploring the Performance of Coherent Ising Machines in Weighted NP-Hard Problems**  
+  School of ECE, Purdue University (Online) | Dec 2022 – Aug 2023
 
-+ **Reproduction of optical design projects based on reverse learning**
-  School of Physical Science and Technology (April 2022 – March 2023)
++ **Reproduction of optical design projects based on reverse learning**  
+  School of Physical Science and Technology, Lanzhou University | Apr 2022 – Mar 2023
 
-+ **Palm print identification**
-  School of Information Science and Engineering (November 2021 – March 2022)
-  code in [CoLab](https://colab.research.google.com/drive/1UXjqFMbqhZZp2DVSjXcWU_WVvdc7rTjc?usp=sharing) and [GitHub](https://github.com/Wang-Zhiping/palmprint-recognition)
++ **Palm print identification**  
+  School of Information Science and Engineering, Lanzhou University | Nov 2021 – Mar 2022  
+  Code available in [Colab](https://colab.research.google.com/drive/1UXjqFMbqhZZp2DVSjXcWU_WVvdc7rTjc?usp=sharing) and [GitHub](https://github.com/Wang-Zhiping/palmprint-recognition)
 
-+ **Exploration of the nature and causes of candle flame oscillator**
-  School of Physical Science and Technology (October 2020 – September 2021)
++ **Exploration of the nature and causes of candle flame oscillation**  
+  School of Physical Science and Technology, Lanzhou University | Oct 2020 – Sep 2021
     
 * * *
 
@@ -223,13 +230,10 @@ The listed content here is just a partial enumeration of experiences. If you wou
 
 # Get in Touch
 
-If you want to get in touch, you can reach me at any time via <w17611688963@gmail.com> or <Zhiping.wang@stud.unibas.ch>.
+If you want to get in touch, you can reach me via <w17611688963@gmail.com> or <Zhiping.wang@stud.unibas.ch>.
 
 On the internet, there are also some other places where you can find me, especially about non-academic daily life, including but not limited to:
 + [bilibili](https://space.bilibili.com/15823831)
 + [500px](https://500px.com.cn/ZhipingWANG)
 
-But only the mail(<w17611688963@gmail.com>) is a reliable way to find me at any time.
-    
-
-      
+The most reliable way to contact me is via email: <w17611688963@gmail.com>.
