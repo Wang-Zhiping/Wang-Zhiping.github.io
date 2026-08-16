@@ -31,7 +31,7 @@ layout: default
 
 Welcome to my personal website!
 
-I am Zhiping Wang, an incoming PhD student at EPFL with a background in physics, imaging, and biophysics. I recently defended my Master's thesis in the Physics of Life program at the [University of Basel](https://www.unibas.ch/en), Switzerland, and I am currently awaiting the official conferral of my degree.
+I am Zhiping Wang, a PhD student at EPFL with a background in physics, imaging, and computation. I graduated from the MSc in Physics of Life program at the [Biozentrum, University of Basel](https://www.biozentrum.unibas.ch), as the program's first graduate. Upon graduation, I was [featured in an interview by the Biozentrum](https://www.biozentrum.unibas.ch/education/degree-programms/msc-in-physics-of-life/interview-zhiping-wang), where I shared my experience in the program and my transition from physics toward imaging and computational methods for biological applications.
 
 My research interests lie at the intersection of computational imaging, optical systems, and biological applications. During my Master's thesis at the [Biozentrum](https://www.biozentrum.unibas.ch), I worked on dual-view 3D imaging and pose-based behavioural analysis in Drosophila, combining telecentric imaging, DeepLabCut-based tracking, affine 3D reconstruction, and long-term behavioural analysis.
 
