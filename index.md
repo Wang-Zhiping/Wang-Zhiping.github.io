@@ -31,7 +31,9 @@ layout: default
 
 Welcome to my personal website!
 
-I am Zhiping Wang, a PhD student at the [Laboratory of Applied Photonics Devices (LAPD)](https://www.epfl.ch/labs/lapd/) at EPFL, working on computational imaging and optical systems, with interests in bio-related applications. I graduated as the first graduate of the MSc in Physics of Life program at the [Biozentrum, University of Basel](https://www.biozentrum.unibas.ch), where I was also [featured in a graduate interview](https://www.biozentrum.unibas.ch/education/degree-programms/msc-in-physics-of-life/interview-zhiping-wang).
+I am Zhiping Wang, a PhD student at the [Laboratory of Applied Photonics Devices (LAPD)](https://www.epfl.ch/labs/lapd/) at EPFL (École polytechnique fédérale de Lausanne), working on computational imaging, optical systems, and light-based 3D printing, with potential applications in bio-related fields.
+
+Before joining EPFL, I received my BSc in Physics from Lanzhou University in China and then moved to Switzerland for the MSc in Physics of Life at the [Biozentrum, University of Basel](https://www.biozentrum.unibas.ch), where I graduated as the program's first graduate and was [featured in a graduate interview](https://www.biozentrum.unibas.ch/education/degree-programms/msc-in-physics-of-life/interview-zhiping-wang). Along the way, I gained research experience across computational optics, imaging, 3D reconstruction, and bio-related applications, including work at Lanzhou University, the Chinese Academy of Sciences, and the University of Basel.
 
 <!-- I am Zhiping Wang, a PhD student at EPFL with a background in physics, imaging, and computation. I graduated from the MSc in Physics of Life program at the [Biozentrum, University of Basel](https://www.biozentrum.unibas.ch), as the program's first graduate. Upon graduation, I was [featured in an interview by the Biozentrum](https://www.biozentrum.unibas.ch/education/degree-programms/msc-in-physics-of-life/interview-zhiping-wang), where I shared my experience in the program and my transition from physics toward imaging and computational methods for biological applications. -->
 
