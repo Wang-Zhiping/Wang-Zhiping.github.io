@@ -17,7 +17,6 @@ For more details, see the sections below, my [research experience](research.html
 ## News {#news}
 
 <ul class="news">
-  <li><time>Sep 2026</time><span>Started as a teaching assistant for ME-413 <em>Introduction to Additive Manufacturing</em> at EPFL.</span></li>
   <li><time>Aug 2026</time><span>Joined EPFL as a PhD student in the Doctoral Program in Photonics, at the <a href="https://www.epfl.ch/labs/lapd/">Laboratory of Applied Photonics Devices (LAPD)</a>.</span></li>
   <li><time>Jun 8, 2026</time><span>Successfully defended my Master's thesis in Physics of Life at the University of Basel.</span></li>
   <li><time>Nov 3, 2025</time><span>Gave my presentation and completed my first Master's project: Optimal Back-Projection for Tomography.</span></li>

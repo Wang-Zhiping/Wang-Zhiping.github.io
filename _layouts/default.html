@@ -7,11 +7,26 @@
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#0f1419" media="(prefers-color-scheme: dark)">
     {% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
     {% include head-custom.html %}
   </head>
   <body{% if page.url == "/" %} class="is-home"{% endif %}>
     <a class="skip-link" href="#main">Skip to content</a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <div class="top-nav-inner">
+        <a class="top-nav-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% for item in site.data.nav.pages %}
+          {% if item.url == page.url %}
+            <a class="nav-link active" href="{{ item.url | relative_url }}" aria-current="page">{{ item.title }}</a>
+          {% else %}
+            <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
     <div class="wrapper">
       {% include sidebar.html %}
 
