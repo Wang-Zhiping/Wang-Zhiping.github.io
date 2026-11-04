@@ -21,7 +21,7 @@ description: Publications of Zhiping Wang.
 </article>
 
 <article class="pub">
-<img src="fdfpm-fig.jpg" alt="Wide-field quantitative phase imaging of blood cells with feature-domain FPM, without slicing">
+<img src="fdfpm-fig.jpg" alt="Blood-cell quantitative phase imaging: feature-domain FPM (c1) versus conventional reconstructions (c2, c3)">
 <div>
 <h3>Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy</h3>
 <p>Fannuo Xu†, <span class="me">Zhiping Wang</span>†, Zipei Wu, and An Pan</p>
