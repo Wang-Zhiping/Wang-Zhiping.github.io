@@ -12,7 +12,7 @@ Before EPFL, I studied Physics at Lanzhou University and completed the MSc in Ph
 
 ## Research Highlights {#research}
 
-<ul class="cards featured">
+<ul class="cards">
 <li><a class="card" href="research.html#phd">
 <img src="assets/img/card-phd.jpg" alt="Phase images of a star-shaped print forming over time">
 <div class="card-body"><span class="tag">PhD · EPFL · 2026 –</span><h3>Phase imaging for light-based 3D printing</h3><p>Fourier ptychography and differential phase contrast to monitor TVAM and holographic prints as they cure.</p></div>
