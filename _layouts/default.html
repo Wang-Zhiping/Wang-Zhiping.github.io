@@ -28,7 +28,7 @@
       </div>
     </nav>
     <div class="wrapper">
-      {% include sidebar.html %}
+      {% if page.url == "/" %}{% include sidebar.html %}{% endif %}
 
       <main id="main" class="content">
         {% if page.url != "/" and page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}

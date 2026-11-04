@@ -5,13 +5,14 @@
 
 :root {
   --bg: #ffffff;
-  --bg-soft: #eef4fa;
-  --text: #222222;
-  --muted: #5c6670;
-  --line: #d8dee4;
-  --accent: #267cb9;        // link blue from the original theme
-  --accent-hover: #e69138;  // orange hover from the original theme
-  --heading: #1b4f7a;
+  --bg-soft: #f3f6f9;
+  --text: #2b3038;
+  --muted: #6b7684;
+  --line: #dde3e9;
+  --accent: #2f6fad;        // softer blue for links and buttons
+  --accent-hover: #d9822b;  // orange only on hover
+  --heading: #1f2733;       // near-black headings; blue is kept for links/accents
+  --accent-soft: #a9c7e6;
   --sidebar-width: 280px;
   --column-gap: 56px;
   --radius: 10px;
@@ -24,9 +25,10 @@
     --text: #e6edf3;
     --muted: #9aa5b1;
     --line: #2f3741;
-    --accent: #6cb6ff;
+    --accent: #7fb6ea;
     --accent-hover: #f0a05a;
-    --heading: #9ccbf5;
+    --heading: #e6edf3;
+    --accent-soft: #3f6a94;
   }
 }
 
@@ -43,7 +45,6 @@ body {
   color: var(--text);
   font: 16px/1.65 "Inter", "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-wrap: break-word;
-  border-top: 4px solid var(--accent);
 }
 
 a {
@@ -79,7 +80,7 @@ h2::after {
   height: 3px;
   margin-top: 8px;
   border-radius: 2px;
-  background: linear-gradient(90deg, var(--accent), #9ccbf5);
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
 }
 h3 { font-size: 1.08rem; margin-top: 1.5rem; }
 h4 { font-size: 1rem; margin-top: 1.2rem; }
@@ -413,7 +414,11 @@ summary:hover { color: var(--accent-hover); }
 // ---------------------------------------------------------------------------
 
 @media (min-width: 861px) {
-  .wrapper {
+  body:not(.is-home) .wrapper {
+    max-width: 880px;
+    padding: 36px 24px 56px;
+  }
+  .is-home .wrapper {
     display: grid;
     grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
     column-gap: var(--column-gap);
