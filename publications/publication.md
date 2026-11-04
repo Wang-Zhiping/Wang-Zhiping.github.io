@@ -41,7 +41,7 @@ description: Publications of Zhiping Wang.
 </article>
 
 <article class="pub">
-<img src="ftcol1.png" alt="Linear-space-variant model for Fourier ptychographic microscopy">
+<img src="lsv-fig.jpg" alt="LSV-FPM: raw data, stitched wide field of view, and phase recovery without wrapping artifacts on a USAF target">
 <div>
 <h3>Linear-space-variant model for Fourier ptychographic microscopy</h3>
 <p>Tianci Feng, Aiye Wang, <span class="me">Zhiping Wang</span>, Yizheng Liao, and An Pan</p>
