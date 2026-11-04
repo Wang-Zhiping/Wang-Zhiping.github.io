@@ -25,6 +25,8 @@ description: Research and project experience of Zhiping Wang.
 <li>Developed locomotion, grooming, immobility, and sleep classifiers; applied hBehaveMAE to unsupervised repertoire discovery and an SVM to proboscis extension (&gt; 90% accuracy).</li>
 <li>Thesis defended on Jun 8, 2026.</li>
 </ul>
+<video class="video-embed" controls muted loop playsinline preload="metadata" poster="assets/video/fly-pe-tracking-poster.jpg"><source src="assets/video/fly-pe-tracking.mp4" type="video/mp4"></video>
+<p class="muted"><small>Grooming and proboscis extension (PE): raw side view with the reconstructed 3D pose and the fitted body model.</small></p>
 </div>
 
 <div class="project" id="tvam">

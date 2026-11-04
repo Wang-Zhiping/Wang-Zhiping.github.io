@@ -4,24 +4,22 @@ title: Zhiping Wang
 description: PhD student in the Doctoral Program in Photonics at EPFL (LAPD), working on computational phase imaging for light-based additive manufacturing.
 ---
 
+<p class="lead">I'm a PhD student in Photonics at EPFL, where I build computational phase imaging to watch light-based 3D prints form in real time.</p>
+
 I work in the [Laboratory of Applied Photonics Devices (LAPD)](https://www.epfl.ch/labs/lapd/) with Prof. Christophe Moser, in the [Doctoral Program in Photonics (EDPO)](https://www.epfl.ch/education/phd/edpo-photonics/). My research combines Fourier ptychographic microscopy, quantitative phase imaging, and inverse reconstruction to monitor tomographic volumetric additive manufacturing (TVAM) and holographic fabrication in situ.
 
 Before EPFL, I studied Physics at Lanzhou University and completed the MSc in Physics of Life at the [Biozentrum, University of Basel](https://www.biozentrum.unibas.ch), as the program's [first graduate](https://www.biozentrum.unibas.ch/education/degree-programms/msc-in-physics-of-life/interview-zhiping-wang). Along the way I worked on cryo-electron tomography reconstruction, 3D behavioural imaging of *Drosophila*, and wide-field Fourier ptychography at the Chinese Academy of Sciences.
 
 ## Research Highlights {#research}
 
-<ul class="cards">
+<ul class="cards featured">
 <li><a class="card" href="research.html#phd">
 <img src="assets/img/card-phd.jpg" alt="Phase images of a star-shaped print forming over time">
 <div class="card-body"><span class="tag">PhD · EPFL · 2026 –</span><h3>Phase imaging for light-based 3D printing</h3><p>Fourier ptychography and differential phase contrast to monitor TVAM and holographic prints as they cure.</p></div>
 </a></li>
 <li><a class="card" href="research.html#thesis">
-<img src="assets/img/card-fly.jpg" alt="Side- and top-view frames of a fruit fly with tracked keypoints">
+<video autoplay muted loop playsinline preload="metadata" poster="assets/video/fly-dualview-poster.jpg" aria-label="Top and side views of a fruit fly recorded simultaneously"><source src="assets/video/fly-dualview.mp4" type="video/mp4"></video>
 <div class="card-body"><span class="tag">MSc thesis · Basel · 2025 – 2026</span><h3>Multi-view 3D tracking of fruit flies</h3><p>Mirror-based arena, DeepLabCut keypoints, 3D reconstruction and sleep/behaviour classifiers.</p></div>
-</a></li>
-<li><a class="card" href="research.html#cryoet">
-<img src="assets/img/card-cryoet.jpg" alt="Cryo-electron tomogram slice of Chlamydomonas reconstructed with the learned filter">
-<div class="card-body"><span class="tag">MSc project · Basel · 2024 – 2025</span><h3>Learned filters for cryo-electron tomography</h3><p>Optimal filtered back-projection trained in PyTorch, validated on real <em>Chlamydomonas</em> data.</p></div>
 </a></li>
 <li><a class="card" href="research.html#fpm">
 <img src="assets/img/card-fpm.jpg" alt="Wide-field Fourier ptychographic reconstruction of plant cells">

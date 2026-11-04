@@ -10,3 +10,18 @@ pages:
     url: /publications/publication.html
   - title: CV
     url: /CV/ZhipingWANG_CV_Oct2026.pdf
+
+# "sections" are the sections of the home page, shown in the sidebar ("/#id" jumps to a section).
+sections:
+  - title: About
+    url: /#main
+  - title: Research
+    url: /#research
+  - title: News
+    url: /#news
+  - title: Interests
+    url: /#interests
+  - title: Education & Awards
+    url: /#education
+  - title: Contact
+    url: /#contact

@@ -61,7 +61,7 @@ css = sass.compile(string=scss, include_paths=[str(repo / "_sass")], output_styl
 (out / "assets/css/style.css").write_text(css)
 
 # static assets
-for d in ["assets/img", "assets/fonts", "CV", "publications", "hiking&photos"]:
+for d in ["assets/img", "assets/fonts", "assets/video", "CV", "publications", "hiking&photos"]:
     src = repo / d
     for p in src.rglob("*"):
         if p.is_file() and p.suffix.lower() not in (".md", ".scss"):
