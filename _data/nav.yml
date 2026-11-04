@@ -10,25 +10,3 @@ pages:
     url: /publications/publication.html
   - title: CV
     url: /CV/ZhipingWANG_CV_Oct2026.pdf
-
-sections:
-  - title: About
-    url: /#main
-  - title: News
-    url: /#news
-  - title: Research Interests
-    url: /#interests
-  - title: Education
-    url: /#education
-  - title: Honors & Awards
-    url: /#honors
-  - title: Teaching
-    url: /#teaching
-  - title: Research Experience
-    url: /#research
-  - title: Publications
-    url: /#publications
-  - title: Skills
-    url: /#skills
-  - title: Contact
-    url: /#contact

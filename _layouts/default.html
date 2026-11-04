@@ -27,20 +27,25 @@
         {% endfor %}
       </div>
     </nav>
-    <div class="wrapper">
-      {% include sidebar.html %}
 
-      <main id="main" class="content">
-        {{ content }}
-      </main>
+    {% if page.url == "/" %}
+      {% include hero.html %}
+    {% elsif page.title %}
+      {% include page-header.html %}
+    {% endif %}
 
-      <footer class="site-footer">
-        <p>
-          &copy; {{ site.time | date: "%Y" }} {{ site.author.name }} &middot;
-          Last updated {{ site.time | date: "%B %Y" }} &middot;
-          Built with <a href="https://jekyllrb.com/">Jekyll</a> on <a href="https://pages.github.com/">GitHub Pages</a>
+    <main id="main" class="content wrapper">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p class="footer-links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          {% for link in site.links %}<a href="{{ link.url | relative_url }}"{% if link.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a>{% endfor %}
         </p>
-      </footer>
-    </div>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }} &middot; Last updated {{ site.time | date: "%B %Y" }} &middot; Built with <a href="https://jekyllrb.com/">Jekyll</a> on <a href="https://pages.github.com/">GitHub Pages</a></p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -4,7 +4,6 @@ title: Publications
 description: Publications of Zhiping Wang.
 ---
 
-# Publications
 
 † denotes equal contribution. <span class="me">Underlined</span> = me.
 
@@ -80,4 +79,12 @@ description: Publications of Zhiping Wang.
 <li>Summarized my work on Fourier ptychographic microscopy.</li>
 <li>Rated "Excellent" at the oral defense (Excellent Bachelor's Thesis award).</li>
 </ul>
+</div>
+
+## Posters and Talks
+
+<div class="project">
+<h3>Towards Computational Phase Imaging for Monitoring Light-Based Fabrication</h3>
+<p class="meta">Poster &middot; Zhiping Wang, Felix Wechsler, Jonathan Dong, Christophe Moser &middot; EPFL &middot; 2026</p>
+<p><a href="Wang_2026_poster_phase_imaging_SHVAM.pdf">Poster (PDF)</a></p>
 </div>

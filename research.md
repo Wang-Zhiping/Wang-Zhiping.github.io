@@ -4,9 +4,8 @@ title: Research Experience
 description: Research and project experience of Zhiping Wang.
 ---
 
-# Research Experience
 
-<div class="project">
+<div class="project" id="phd">
 <h3>Computational Phase Imaging for Monitoring Light-Based Additive Manufacturing</h3>
 <p class="meta">PhD research, Laboratory of Applied Photonics Devices (LAPD), EPFL &middot; Supervisor: Prof. Christophe Moser &middot; Aug 2026 – present &middot; Lausanne, Switzerland</p>
 <ul>
@@ -14,10 +13,11 @@ description: Research and project experience of Zhiping Wang.
 <li>Building a programmable Fourier ptychographic microscopy (FPM) / differential phase contrast (DPC) microscope with sparse multi-angle LED illumination, external camera triggering, and synchronized illumination and acquisition.</li>
 <li>Developing illumination-angle, pupil, aberration, and defocus calibration; investigating vignetting, model mismatch, and few-frame imaging for dynamic processes.</li>
 <li>Validating with USAF resolution targets, glass microspheres, and quantitative phase targets.</li>
+<li><a href="publications/Wang_2026_poster_phase_imaging_SHVAM.pdf">Poster: Towards Computational Phase Imaging for Monitoring Light-Based Fabrication (PDF)</a></li>
 </ul>
 </div>
 
-<div class="project">
+<div class="project" id="thesis">
 <h3>3D Multi-View Tracking and Behavioral Analysis of <em>Drosophila</em></h3>
 <p class="meta">Master's thesis, Biozentrum, University of Basel &middot; Advisors: Prof. Anissa Kempf and Dr. Alexandra Medeiros &middot; Oct 2025 – Jun 2026 &middot; Basel, Switzerland</p>
 <ul>
@@ -27,7 +27,7 @@ description: Research and project experience of Zhiping Wang.
 </ul>
 </div>
 
-<div class="project">
+<div class="project" id="tvam">
 <h3>3D Reconstruction for TVAM 3D-Printed Samples</h3>
 <p class="meta">EPFL Excellence in Engineering (E3) summer project &middot; Advisors: Felix Wechsler, Dr. Jonathan Dong, and Prof. Christophe Moser, LAPD, EPFL &middot; Jun 2025 – Sep 2025 &middot; Lausanne, Switzerland</p>
 <ul>
@@ -36,7 +36,7 @@ description: Research and project experience of Zhiping Wang.
 </ul>
 </div>
 
-<div class="project">
+<div class="project" id="cryoet">
 <h3>Optimal Filtered Back-Projection for Cryo-electron Tomography</h3>
 <p class="meta">Master's project, Biozentrum &amp; Department of Mathematics and Computer Science, University of Basel &middot; Advisors: Dr. Ricardo Righetto and Dr. Valentin Debarnot &middot; Nov 2024 – Feb 2025 &middot; Basel, Switzerland</p>
 <ul>
@@ -45,7 +45,7 @@ description: Research and project experience of Zhiping Wang.
 </ul>
 </div>
 
-<div class="project">
+<div class="project" id="fpm">
 <h3>High-Efficiency Fourier Ptychographic Microscopy</h3>
 <p class="meta">Research internship, Pioneering Interdiscipline Center, Chinese Academy of Sciences &middot; Supervisor: Dr. An Pan &middot; Aug 2023 – Jul 2024 &middot; China</p>
 <ul>

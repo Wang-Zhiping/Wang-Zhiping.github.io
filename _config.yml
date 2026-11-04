@@ -14,7 +14,22 @@ author:
     and 3D reconstruction. I am always open to collaboration in imaging, optics,
     3D reconstruction, 3D printing, and related fields.
 
-# Buttons shown under the name in the sidebar.
+# Home page hero.
+hero:
+  kicker: Computational imaging · Optics · 3D printing
+  title: Hi, I'm Zhiping.
+  lead: >-
+    I'm a PhD student in Photonics at EPFL, where I build computational phase
+    imaging to watch light-based 3D prints form in real time.
+  buttons:
+    - title: Research
+      url: /research.html
+    - title: Publications
+      url: /publications/publication.html
+    - title: CV (PDF)
+      url: /CV/ZhipingWANG_CV_Oct2026.pdf
+
+# Links shown in the footer.
 links:
   - title: CV
     url: /CV/ZhipingWANG_CV_Oct2026.pdf
