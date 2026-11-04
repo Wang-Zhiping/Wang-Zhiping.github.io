@@ -112,11 +112,6 @@ A short overview; see the [full research page](research.html) for details on eac
 - **3D Reconstruction for TVAM 3D-Printed Samples** — EPFL E3 summer project, advisors Felix Wechsler and Prof. Christophe Moser, Jun 2025 – Sep 2025.
 - **Optimal Filtered Back-Projection for Cryo-electron Tomography** — Master's project, advisors Dr. Ricardo Righetto and Dr. Valentin Debarnot, University of Basel, Nov 2024 – Feb 2025.
 - **High-Efficiency Fourier Ptychographic Microscopy** — research internship, supervisor Dr. An Pan, Pioneering Interdiscipline Center, Chinese Academy of Sciences, Aug 2023 – Jul 2024.
-- **Improving the Efficiency of Photoacoustic Conversion in Photoacoustic Imaging** — ShanghaiTech University (online), May 2023 – Sep 2023.
-- **Performance of Coherent Ising Machines in Weighted NP-Hard Problems** — Purdue University (online), Dec 2022 – Aug 2023.
-- **Reproduction of Inverse Design of Nano-Optical Structures by Neural Networks** — Lanzhou University, Apr 2022 – Mar 2023.
-- **Palm Print Identification** — Lanzhou University, Nov 2021 – Mar 2022. Code on [GitHub](https://github.com/Wang-Zhiping/palmprint-recognition).
-- **Nature and Causes of Candle Flame Oscillation** — Lanzhou University, Oct 2020 – Sep 2021.
 
 ## Selected Publications {#publications}
 

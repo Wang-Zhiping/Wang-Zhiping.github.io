@@ -55,6 +55,9 @@ description: Research and project experience of Zhiping Wang.
 </ul>
 </div>
 
+<details class="earlier">
+<summary>Earlier undergraduate projects (2020 – 2023)</summary>
+
 <div class="project">
 <h3>Improving the Efficiency of Photoacoustic Conversion in Photoacoustic Imaging</h3>
 <p class="meta">Online research project, HISLab, School of Information Science and Technology, ShanghaiTech University &middot; Advisor: Prof. Fei Gao &middot; May 2023 – Sep 2023</p>
@@ -102,3 +105,5 @@ description: Research and project experience of Zhiping Wang.
 <li>Presented as a tournament topic at the China Undergraduate Physics Tournament (Northwest Region) and won the First Prize in Jun 2021.</li>
 </ul>
 </div>
+
+</details>
