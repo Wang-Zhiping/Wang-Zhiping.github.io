@@ -13,7 +13,7 @@ description: Publications of Zhiping Wang.
 <img src="meif-fig.jpg" alt="MEIF-FPM reconstruction of plant cells: raw data, HDR, MEIF and single-exposure intensity and phase results">
 <div>
 <h3>Fusion-based enhancement of multi-exposure Fourier ptychographic microscopy</h3>
-<p><span class="me">Zhiping Wang</span>, Tianci Feng, Aiye Wang, Jinghao Xu, and An Pan</p>
+<p><span class="me">Zhiping Wang</span>†, Tianci Feng†, Aiye Wang, Jinghao Xu, and An Pan</p>
 <p class="venue"><em>Advanced Photonics Nexus</em> 4(4), 046001 (2025)</p>
 <p class="links"><a href="https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-04/046001/Fusion-based-enhancement-of-multi-exposure-Fourier-ptychographic-microscopy/10.1117/1.APN.4.4.046001.full">Publisher</a> <a href="https://doi.org/10.1117/1.APN.4.4.046001">DOI</a></p>
 </div>

@@ -16,7 +16,7 @@ Before EPFL, I studied Physics at Lanzhou University and completed the MSc in Ph
 <div class="card-body"><span class="tag">PhD · EPFL · 2026 –</span><h3>Phase imaging for light-based 3D printing</h3><p>Fourier ptychography and differential phase contrast to monitor TVAM and holographic prints as they cure.</p></div>
 </a></li>
 <li><a class="card" href="research.html#thesis">
-<div class="card-art">3D behavioural imaging of <em>&nbsp;Drosophila</em></div>
+<img src="assets/img/card-fly.jpg" alt="Side- and top-view frames of a fruit fly with tracked keypoints">
 <div class="card-body"><span class="tag">MSc thesis · Basel · 2025 – 2026</span><h3>Multi-view 3D tracking of fruit flies</h3><p>Mirror-based arena, DeepLabCut keypoints, 3D reconstruction and sleep/behaviour classifiers.</p></div>
 </a></li>
 <li><a class="card" href="research.html#cryoet">
