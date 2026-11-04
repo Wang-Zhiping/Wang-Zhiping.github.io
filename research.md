@@ -29,7 +29,7 @@ description: Research and project experience of Zhiping Wang.
 
 <div class="project">
 <h3>3D Reconstruction for TVAM 3D-Printed Samples</h3>
-<p class="meta">EPFL Excellence in Engineering (E3) summer project &middot; Advisors: Felix Wechsler and Prof. Christophe Moser, LAPD, EPFL &middot; Jun 2025 – Sep 2025 &middot; Lausanne, Switzerland</p>
+<p class="meta">EPFL Excellence in Engineering (E3) summer project &middot; Advisors: Felix Wechsler, Dr. Jonathan Dong, and Prof. Christophe Moser, LAPD, EPFL &middot; Jun 2025 – Sep 2025 &middot; Lausanne, Switzerland</p>
 <ul>
 <li>Developed a multi-slice forward model for 3D FPM using angular-spectrum propagation and implicit neural representation (INR)-based inverse reconstruction in PyTorch; compared INR and voxel representations, improving fidelity and reducing artifacts in simulations.</li>
 <li>Independently assembled an FPM setup with programmable LED illumination, optical alignment, acquisition, and reconstruction software; validated super-resolution using experimental data.</li>

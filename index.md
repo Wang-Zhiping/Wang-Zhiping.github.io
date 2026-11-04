@@ -109,7 +109,7 @@ A short overview; see the [full research page](research.html) for details on eac
 
 - **Computational Phase Imaging for Monitoring Light-Based Additive Manufacturing** — PhD research, LAPD, EPFL, supervisor Prof. Christophe Moser, Aug 2026 – present. Developing quantitative phase imaging for in-situ monitoring of TVAM, SHVAM, and holographic fabrication, including a programmable FPM/DPC microscope with sparse multi-angle LED illumination.
 - **3D Multi-View Tracking and Behavioral Analysis of *Drosophila*** — Master's thesis, Biozentrum, University of Basel, advisors Prof. Anissa Kempf and Dr. Alexandra Medeiros, Oct 2025 – Jun 2026. Mirror-based multi-view arena, DeepLabCut keypoint models, metric 3D trajectory reconstruction, inverse kinematics, and behaviour classifiers.
-- **3D Reconstruction for TVAM 3D-Printed Samples** — EPFL E3 summer project, advisors Felix Wechsler and Prof. Christophe Moser, Jun 2025 – Sep 2025.
+- **3D Reconstruction for TVAM 3D-Printed Samples** — EPFL E3 summer project, advisors Felix Wechsler, Dr. Jonathan Dong, and Prof. Christophe Moser, Jun 2025 – Sep 2025.
 - **Optimal Filtered Back-Projection for Cryo-electron Tomography** — Master's project, advisors Dr. Ricardo Righetto and Dr. Valentin Debarnot, University of Basel, Nov 2024 – Feb 2025.
 - **High-Efficiency Fourier Ptychographic Microscopy** — research internship, supervisor Dr. An Pan, Pioneering Interdiscipline Center, Chinese Academy of Sciences, Aug 2023 – Jul 2024.
 
