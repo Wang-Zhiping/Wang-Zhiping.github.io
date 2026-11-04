@@ -11,7 +11,7 @@ description: Publications of Zhiping Wang.
 ## Journal Articles
 
 <article class="pub">
-<img src="ZhipingAPNfusion.png" alt="Fusion-based enhancement of multi-exposure Fourier ptychographic microscopy">
+<img src="meif-fig.jpg" alt="MEIF-FPM reconstruction of plant cells: raw data, HDR, MEIF and single-exposure intensity and phase results">
 <div>
 <h3>Fusion-based enhancement of multi-exposure Fourier ptychographic microscopy</h3>
 <p><span class="me">Zhiping Wang</span>, Tianci Feng, Aiye Wang, Jinghao Xu, and An Pan</p>
@@ -21,7 +21,7 @@ description: Publications of Zhiping Wang.
 </article>
 
 <article class="pub">
-<img src="xuqpiolt.png" alt="Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy">
+<img src="fdfpm-fig.jpg" alt="Wide-field quantitative phase imaging of blood cells with feature-domain FPM, without slicing">
 <div>
 <h3>Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy</h3>
 <p>Fannuo Xu†, <span class="me">Zhiping Wang</span>†, Zipei Wu, and An Pan</p>
@@ -31,7 +31,7 @@ description: Publications of Zhiping Wang.
 </article>
 
 <article class="pub">
-<img src="fast_color.jpg" alt="Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization">
+<img src="gcfpm-fig.jpg" alt="Full-color FPM imaging of stained pathology sections via closed-form model-based colorization">
 <div>
 <h3>Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization</h3>
 <p>Yanqi Chen, Jiurun Chen, <span class="me">Zhiping Wang</span>, Yuting Gao, Yonghong He, Yishi Shi, and An Pan</p>
@@ -51,7 +51,7 @@ description: Publications of Zhiping Wang.
 </article>
 
 <article class="pub">
-<img src="cellsreviews.png" alt="Fourier ptychographic microscopy 10 years on: a review">
+<img src="fpm-review-fig.jpg" alt="Examples of FPM imaging of biological samples from the review">
 <div>
 <h3>Fourier ptychographic microscopy 10 years on: a review</h3>
 <p>Fannuo Xu, Zipei Wu, Chao Tan, Yizheng Liao, <span class="me">Zhiping Wang</span>, Keru Chen, and An Pan</p>
