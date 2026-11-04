@@ -1,0 +1,400 @@
+// ---------------------------------------------------------------------------
+// Site styles. Mobile-first: the base rules apply everywhere, the desktop
+// two-column layout is added at the end under a min-width media query.
+// ---------------------------------------------------------------------------
+
+:root {
+  --bg: #ffffff;
+  --bg-soft: #eef4fa;
+  --text: #222222;
+  --muted: #5c6670;
+  --line: #d8dee4;
+  --accent: #267cb9;        // link blue from the original theme
+  --accent-hover: #e69138;  // orange hover from the original theme
+  --heading: #1b4f7a;
+  --sidebar-width: 280px;
+  --column-gap: 56px;
+  --radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1419;
+    --bg-soft: #171d24;
+    --text: #e6edf3;
+    --muted: #9aa5b1;
+    --line: #2f3741;
+    --accent: #6cb6ff;
+    --accent-hover: #f0a05a;
+    --heading: #9ccbf5;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover, a:focus { color: var(--accent-hover); text-decoration: underline; }
+
+img { max-width: 100%; height: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+  line-height: 1.25;
+  margin: 0 0 0.6em;
+  font-weight: 700;
+}
+h1 { font-size: 1.6rem; }
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2.2rem;
+  padding-bottom: 0.3rem;
+  color: var(--heading);
+  border-bottom: 2px solid var(--accent);
+}
+h3 { font-size: 1.08rem; margin-top: 1.5rem; }
+h4 { font-size: 1rem; margin-top: 1.2rem; }
+
+p, ul, ol, dl, pre, table, figure { margin: 0 0 1em; }
+ul, ol { padding-left: 1.3em; }
+li { margin-bottom: 0.3em; }
+li > ul, li > ol { margin-top: 0.3em; margin-bottom: 0.3em; }
+
+strong { color: var(--text); font-weight: 700; }
+small { font-size: 0.85em; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2rem 0;
+}
+
+blockquote {
+  margin: 0 0 1em;
+  padding-left: 1em;
+  border-left: 3px solid var(--line);
+  color: var(--muted);
+}
+
+code, pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.92em;
+}
+pre {
+  padding: 10px 14px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+// Tables scroll sideways on narrow screens instead of breaking the layout.
+table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+th, td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+th { color: var(--text); }
+
+details { margin: 0.5rem 0 1.2rem; }
+summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+}
+summary:hover { color: var(--accent-hover); }
+
+// Anchored sections should not hide under the top edge after a jump.
+[id] { scroll-margin-top: 16px; }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 8px;
+  background: var(--bg);
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  z-index: 10;
+}
+.skip-link:focus { left: 8px; }
+
+// ---------------------------------------------------------------------------
+// Page frame (single column by default)
+// ---------------------------------------------------------------------------
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+}
+
+.content { min-width: 0; }
+.content > :first-child { margin-top: 0; }
+.content > h1:first-child { margin-top: 0.4rem; }
+
+.site-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.site-footer p { margin: 0; }
+
+// ---------------------------------------------------------------------------
+// Header / sidebar: compact card on phones
+// ---------------------------------------------------------------------------
+
+.site-header {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  column-gap: 14px;
+  align-items: center;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-photo-link { display: block; line-height: 0; }
+.site-photo {
+  width: 112px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.site-identity { min-width: 0; }
+.site-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 4px;
+}
+.site-name a { color: var(--heading); }
+.site-name a:hover { color: var(--accent); text-decoration: none; }
+.site-role {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.site-bio,
+.site-email,
+.site-links,
+.site-nav {
+  grid-column: 1 / -1;
+}
+
+.site-bio {
+  font-size: 0.92rem;
+  margin: 12px 0 8px;
+}
+// On phones, keep the header short on sub-pages: the bio only shows on the home page.
+@media (max-width: 860px) {
+  body:not(.is-home) .site-bio { display: none; }
+}
+
+.site-email {
+  font-size: 0.92rem;
+  color: var(--accent-hover);
+  margin: 0 0 10px;
+  overflow-wrap: anywhere;
+}
+
+.site-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.site-links li { margin: 0; }
+.site-links a {
+  display: inline-block;
+  padding: 5px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.site-links a:hover, .site-links a:focus {
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+.site-nav a {
+  padding: 4px 0;
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+.site-nav a:hover, .site-nav a:focus { color: var(--accent-hover); text-decoration: none; }
+.site-nav a.active { color: var(--heading); font-weight: 700; }
+
+// ---------------------------------------------------------------------------
+// Content components
+// ---------------------------------------------------------------------------
+
+// News list: <ul class="news"><li><time>…</time><span>…</span></li></ul>
+.news {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em;
+}
+.news li {
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.news li:last-child { border-bottom: 0; }
+.news time {
+  display: block;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+// Publication card: <article class="pub"><img><div>…</div></article>
+.pub {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub:last-of-type { border-bottom: 0; }
+.pub img {
+  display: block;
+  max-width: 420px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  margin-bottom: 10px;
+}
+.pub h3 { margin: 0 0 4px; font-size: 1.05rem; }
+.pub p { margin: 0 0 4px; font-size: 0.93rem; }
+.pub .venue { color: var(--muted); font-size: 0.88rem; }
+.pub .links a { margin-right: 12px; font-size: 0.9rem; font-weight: 600; }
+
+// Highlight the site owner in author lists.
+.me { font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+
+// Project / experience entry: <div class="project"><h3>…</h3><p class="meta">…</p><ul>…</ul></div>
+.project {
+  padding: 12px 0 6px;
+  border-bottom: 1px solid var(--line);
+}
+.project:last-of-type { border-bottom: 0; }
+.project h3 { margin: 0 0 2px; }
+.project .meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+// Entries with a date on the right (education, honors)
+.entry { margin-bottom: 1rem; }
+.entry h3 { margin: 0 0 2px; }
+.entry .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 6px; }
+
+.muted { color: var(--muted); }
+
+// ---------------------------------------------------------------------------
+// Desktop: fixed-width sidebar on the left, content on the right
+// ---------------------------------------------------------------------------
+
+@media (min-width: 861px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+    column-gap: var(--column-gap);
+    padding: 44px 32px 56px;
+  }
+
+  .site-header {
+    display: block;
+    position: sticky;
+    top: 32px;
+    align-self: start;
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .site-photo {
+    width: 100%;
+    border-radius: var(--radius);
+    margin-bottom: 14px;
+  }
+
+  .site-name { font-size: 1.55rem; }
+  .site-role { margin-bottom: 12px; }
+  .site-bio { margin-top: 0; }
+
+  .site-nav {
+    display: block;
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+  .site-nav a {
+    display: block;
+    padding: 4px 0;
+  }
+
+  .site-footer { grid-column: 1 / -1; }
+
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.4rem; }
+
+  .news li {
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr);
+    column-gap: 12px;
+  }
+  .news time { white-space: nowrap; padding-top: 2px; }
+
+  .pub {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    column-gap: 20px;
+  }
+  .pub img { margin-bottom: 0; }
+}
+
+@media print {
+  body { font-size: 12pt; color: #000; background: #fff; }
+  .site-header { position: static; }
+  .site-nav, .site-links, .skip-link { display: none; }
+  a { color: inherit; }
+}

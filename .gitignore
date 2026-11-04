@@ -1,2 +1,14 @@
 # macOS
 *.DS_Store
+
+# Jekyll build output and local bundler files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+
+# Local preview output
+_preview/out/
+_preview/preview-includes/

@@ -1,0 +1,21 @@
+# Sidebar navigation. Links starting with "/#" jump to a section on the home page.
+- title: About
+  url: /
+- title: News
+  url: /#news
+- title: Research Interests
+  url: /#interests
+- title: Education
+  url: /#education
+- title: Honors & Awards
+  url: /#honors
+- title: Teaching
+  url: /#teaching
+- title: Skills
+  url: /#skills
+- title: Research Experience
+  url: /research.html
+- title: Publications
+  url: /publications/publication.html
+- title: Contact
+  url: /#contact

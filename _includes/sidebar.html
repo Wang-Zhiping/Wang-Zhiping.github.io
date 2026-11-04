@@ -1,0 +1,30 @@
+<header class="site-header">
+  <a class="site-photo-link" href="{{ '/' | relative_url }}">
+    <img class="site-photo" src="{{ site.logo | relative_url }}" alt="Photo of {{ site.author.name }}" width="1996" height="1385">
+  </a>
+  <div class="site-identity">
+    <p class="site-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+    <p class="site-role">{{ site.description }}</p>
+  </div>
+
+  <p class="site-bio">{{ site.author.bio }}</p>
+
+  <p class="site-email">
+    <strong>Email:</strong>
+    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+  </p>
+
+  <ul class="site-links">
+    {% for link in site.links %}
+      <li><a href="{{ link.url | relative_url }}"{% if link.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <nav class="site-nav" aria-label="Site navigation">
+    {% for item in site.data.nav %}
+      {% assign is_current = false %}
+      {% unless item.url contains '#' %}{% if item.url == page.url %}{% assign is_current = true %}{% endif %}{% endunless %}
+      <a href="{{ item.url | relative_url }}"{% if is_current %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

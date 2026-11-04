@@ -1,110 +1,32 @@
 <!DOCTYPE html>
-
-<style>
-
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* 水平居中对齐 */
-    align-items: center; /* 垂直居中对齐 */
-
-
-  }
-
-    .sidebar {
-      flex: 1; /* 侧边栏占据1部分，即25%宽度 */
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* 垂直居中对齐 */
-      align-items: center; /* 水平居中对齐 */
-    }
-
-    .sidebar-content {
-      text-align: center; /* 水平居中对齐 */
-      align-items: center; /* 垂直居中对齐 */
-    }
-
-  .content {
-    flex: 8; /* 内容区域占据3部分，即75%宽度 */
-  }
-</style>
-
-
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en" }}">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0f1419" media="(prefers-color-scheme: dark)">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
     {% include head-custom.html %}
-
-                                    <!-- Google tag (gtag.js) -->
-                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-KS696ZT70G"></script>
-                                <script>
-                                  window.dataLayer = window.dataLayer || [];
-                                  function gtag(){dataLayer.push(arguments);}
-                                  gtag('js', new Date());
-                                
-                                  gtag('config', 'G-KS696ZT70G');
-</script>
   </head>
-  <body>
+  <body{% if page.url == "/" %} class="is-home"{% endif %}>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      {% include sidebar.html %}
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+      <main id="main" class="content">
+        {{ content }}
+      </main>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-        
-        <!-- <p><strong>I am actively seeking Ph.D. positions for the 2025, and I am set to complete my Bachelor's degree in June 2024. If interested, please contact me anytime.</strong> -->
-          <p><strong>I am currently a PhD student at EPFL, with a background in physics, computational imaging, and optical systems. I am always open to collaboration opportunities in imaging, optics, 3D reconstruction, 3D printing, and related fields.          </strong>
-                 <br><br> <span style="color: #FF8000;"><b>Email:</b> zhiping.swiss@gmail.com</span>
-                 <br><br>           <span style="font-size: 7px; display: inline;text-align: right;">Theme by <a href="https://github.com/orderedlist">orderedlist</a></span>
-
-</p>
-        
-      </header>
-      <section class="content">
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-<!--         <p>
-          <span style="color: #FF8000;"><b>Email:</b> w17611688963@gmail.com</span>
-          <br>
-          <span style="font-size: 7px; display: inline;text-align: right;">Theme by <a href="https://github.com/orderedlist">orderedlist</a></span>
-        </p> <p><font color="#FFO000"><b>Email:</b> w17611688963@gmail.com</fontcolor><small></p> -->
+      <footer class="site-footer">
+        <p>
+          &copy; {{ site.time | date: "%Y" }} {{ site.author.name }} &middot;
+          Last updated {{ site.time | date: "%B %Y" }} &middot;
+          Built with <a href="https://jekyllrb.com/">Jekyll</a> on <a href="https://pages.github.com/">GitHub Pages</a>
+          <a href="https://clustrmaps.com/site/1bx3g" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=l8Vxf3g7cK6-tuIQUBBtPNSo7ALplEXpHsJAAcgXi20&amp;cl=ffffff" width="1" height="1" alt=""></a>
+        </p>
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

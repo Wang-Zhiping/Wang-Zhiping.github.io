@@ -1,47 +1,83 @@
-# Publications
-
-## Under Review
-
+---
+layout: default
+title: Publications
+description: Publications of Zhiping Wang.
 ---
 
-## Accepted Papers
+# Publications
 
-### Title: Fusion-Based Enhancement of Multi-Exposure Fourier Ptychographic Microscopy
-![Fusion-Based Enhancement of Multi-Exposure Fourier Ptychographic Microscopy](ZhipingAPNfusion.png)
-- Authors: <u>Zhiping Wang</u>, Tianci Feng, Aiye Wang, Jinghao Xu, and An Pan.
-- Link: [SPIE](https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-04/046001/Fusion-based-enhancement-of-multi-exposure-Fourier-ptychographic-microscopy/10.1117/1.APN.4.4.046001.full)
-- DOI: [10.1117/1.APN.4.4.046001](https://doi.org/10.1117/1.APN.4.4.046001)
+† denotes equal contribution. <span class="me">Underlined</span> = me.
 
+## Journal Articles
 
-### Title: Wide-Field Quantitative Phase Imaging Without Slicing Via Feature-Domain Fourier Ptychographic Microscopy
-![Wide-Field Quantitative Phase Imaging Without Slicing Via Feature-Domain Fourier Ptychographic Microscopy](xuqpiolt.png)
-- Authors: Fannuo Xu †, <u>Zhiping Wang</u> †, Zipei Wu and An Pan.
-- Link: [Elsevier](https://www.sciencedirect.com/science/article/pii/S0030399225003159?via%3Dihub)
-- DOI: [10.1016/j.optlastec.2025.112727](https://doi.org/10.1016/j.optlastec.2025.112727)
-  
+<article class="pub">
+<img src="ZhipingAPNfusion.png" alt="Fusion-based enhancement of multi-exposure Fourier ptychographic microscopy">
+<div>
+<h3>Fusion-based enhancement of multi-exposure Fourier ptychographic microscopy</h3>
+<p><span class="me">Zhiping Wang</span>, Tianci Feng, Aiye Wang, Jinghao Xu, and An Pan</p>
+<p class="venue"><em>Advanced Photonics Nexus</em> 4(4), 046001 (2025)</p>
+<p class="links"><a href="https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-04/046001/Fusion-based-enhancement-of-multi-exposure-Fourier-ptychographic-microscopy/10.1117/1.APN.4.4.046001.full">Publisher</a> <a href="https://doi.org/10.1117/1.APN.4.4.046001">DOI</a></p>
+</div>
+</article>
 
-### Title: Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization
-![Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization](./fast_color.jpg)
-- Authors: Yanqi Chen, Jiurun Chen, <u>Zhiping Wang</u>, Yuting Gao, Yhonghong He, Yishi Shi, and An Pan. 
-- Link: [SPIE](https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-2/026001/Fast-full-color-pathological-imaging-using-Fourier-ptychographic-microscopy-via/10.1117/1.APN.4.2.026001.full)
-- DOI: [10.1117/1.APN.4.2.026001](https://doi.org/10.1117/1.APN.4.2.026001)
-  
-### Title: Linear-Space-Variant Model for Fourier Ptychographic Microscopy
-![Linear-Space-Variant Model for Fourier Ptychographic Microscopy](./ftcol1.png)
-- Authors: Tianci Feng, Aiye Wang, <u>Zhiping Wang</u>, and An Pan.
-- Link: [Optica](https://opg.optica.org/ol/abstract.cfm?uri=ol-49-10-2617)
-<!-- - PDF Download: [PDF](./cells-13-00324.pdf) -->
-- DOI: [10.1364/OL.522745](https://doi.org/10.1364/OL.522745)
+<article class="pub">
+<img src="xuqpiolt.png" alt="Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy">
+<div>
+<h3>Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy</h3>
+<p>Fannuo Xu†, <span class="me">Zhiping Wang</span>†, Zipei Wu, and An Pan</p>
+<p class="venue"><em>Optics &amp; Laser Technology</em> 187, 112727 (2025)</p>
+<p class="links"><a href="https://www.sciencedirect.com/science/article/pii/S0030399225003159">Publisher</a> <a href="https://doi.org/10.1016/j.optlastec.2025.112727">DOI</a></p>
+</div>
+</article>
 
-### Title: Fourier Ptychographic Microscopy 10 Years on: A Review
-![Fourier Ptychographic Microscopy 10 Years on: A Review](./cellsreviews.png)
-- Authors: Fannuo Xu, Zipei Wu, Chao Tan, Yizheng Liao, <u>Zhiping Wang</u>, Keru Chen, and An Pan
-- Link: [MDPI](https://www.mdpi.com/2073-4409/13/4/324)
-- PDF Download: [PDF](./cells-13-00324.pdf)
-- DOI: [10.3390/cells13040324](https://doi.org/10.3390/cells13040324)
+<article class="pub">
+<img src="fast_color.jpg" alt="Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization">
+<div>
+<h3>Fast full-color pathological imaging using Fourier ptychographic microscopy via closed-form model-based colorization</h3>
+<p>Yanqi Chen, Jiurun Chen, <span class="me">Zhiping Wang</span>, Yuting Gao, Yonghong He, Yishi Shi, and An Pan</p>
+<p class="venue"><em>Advanced Photonics Nexus</em> 4(2), 026001 (2025)</p>
+<p class="links"><a href="https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-2/026001/Fast-full-color-pathological-imaging-using-Fourier-ptychographic-microscopy-via/10.1117/1.APN.4.2.026001.full">Publisher</a> <a href="https://doi.org/10.1117/1.APN.4.2.026001">DOI</a></p>
+</div>
+</article>
 
-## Thesis
-### Title: Exploring Advancements in Slicing-free Fourier Ptychographic Microscopy
-- Instructor: Dr. Hao Jia (Lanzhou University and KAUST) and Dr. An Pan (Chinese Academy of Sciences)
-- Summarized some of my work on Fourier Ptychographic Microscopy.
-- Achieved an excellent rating for my thesis through oral defense.
+<article class="pub">
+<img src="ftcol1.png" alt="Linear-space-variant model for Fourier ptychographic microscopy">
+<div>
+<h3>Linear-space-variant model for Fourier ptychographic microscopy</h3>
+<p>Tianci Feng, Aiye Wang, <span class="me">Zhiping Wang</span>, Yizheng Liao, and An Pan</p>
+<p class="venue"><em>Optics Letters</em> 49(10), 2617–2620 (2024)</p>
+<p class="links"><a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-49-10-2617">Publisher</a> <a href="https://doi.org/10.1364/OL.522745">DOI</a></p>
+</div>
+</article>
+
+<article class="pub">
+<img src="cellsreviews.png" alt="Fourier ptychographic microscopy 10 years on: a review">
+<div>
+<h3>Fourier ptychographic microscopy 10 years on: a review</h3>
+<p>Fannuo Xu, Zipei Wu, Chao Tan, Yizheng Liao, <span class="me">Zhiping Wang</span>, Keru Chen, and An Pan</p>
+<p class="venue"><em>Cells</em> 13(4), 324 (2024)</p>
+<p class="links"><a href="https://www.mdpi.com/2073-4409/13/4/324">Publisher</a> <a href="cells-13-00324.pdf">PDF</a> <a href="https://doi.org/10.3390/cells13040324">DOI</a></p>
+</div>
+</article>
+
+## Theses and Reports
+
+<div class="project">
+<h3>3D Multi-View Tracking and Behavioral Analysis of <em>Drosophila</em></h3>
+<p class="meta">Master's thesis, Biozentrum, University of Basel &middot; Advisors: Prof. Anissa Kempf and Dr. Alexandra Medeiros &middot; defended Jun 8, 2026</p>
+</div>
+
+<div class="project">
+<h3>Optimal Filtered Back-Projection for Cryo-electron Tomography</h3>
+<p class="meta">Master's project report, University of Basel &middot; Advisors: Dr. Ricardo Righetto &amp; Dr. Valentin Debarnot &middot; 2025</p>
+<p><a href="Zhiping_Report_cryo_opfbp.pdf">Report (PDF)</a></p>
+</div>
+
+<div class="project">
+<h3>Exploring Advancements in Slicing-free Fourier Ptychographic Microscopy</h3>
+<p class="meta">Bachelor's thesis, Lanzhou University &middot; Advisors: Dr. Hao Jia (Lanzhou University &amp; KAUST) and Dr. An Pan (Chinese Academy of Sciences) &middot; 2024</p>
+<ul>
+<li>Summarized my work on Fourier ptychographic microscopy.</li>
+<li>Rated "Excellent" at the oral defense (Excellent Bachelor's Thesis award).</li>
+</ul>
+</div>
