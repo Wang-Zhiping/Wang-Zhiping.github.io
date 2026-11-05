@@ -110,7 +110,7 @@ Outside the lab I enjoy [hiking](hiking%26photos/readme2.html), [photography](ht
 
 ## Get in Touch {#contact}
 
-The most reliable way to reach me is by email: <zhiping.wang@epfl.ch> or <zhipingwang818@gmail.com>.
+The most reliable way to reach me is by email: <zhiping.wang@epfl.ch> or <zhiping.swiss@gmail.com>.
 
 <p class="btn-row">
 <a class="btn" href="https://github.com/Wang-Zhiping">GitHub</a>
